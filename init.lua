@@ -1,1 +1,2 @@
-print("hello")
+-- Basic Configs
+require("core.configs")
