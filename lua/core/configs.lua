@@ -18,3 +18,7 @@ vim.opt.softtabstop = 2
 vim.opt.scrolloff = 8
 vim.opt.wrap = false
 
+-- From vim book
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+
