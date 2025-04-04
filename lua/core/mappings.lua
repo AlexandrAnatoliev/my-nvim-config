@@ -7,6 +7,9 @@ vim.keymap.set('i', 'jj', '<Esc>')
 -- Buffers
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 
+-- Neo-tree
+vim.keymap.set('n', '<leader>e', ':Neotree float toggle reveal<CR>')
+
 -- Navigation
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
