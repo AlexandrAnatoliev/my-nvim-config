@@ -23,3 +23,14 @@ vim.opt.termguicolors = true
 vim.opt.expandtab = true
 vim.opt.autoindent = true
 
+-- Fillchars
+vim.opt.fillchars = {
+	vert = "│",
+	fold = "⠀",
+	eob = " ", -- suppress ~ at EndOfBuffer
+	-- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+	msgsep = "‾",
+	foldopen = "▾",
+	foldsep = "│",
+	foldclose = "▸",
+}
