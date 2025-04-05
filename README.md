@@ -1,1 +1,1 @@
-init
+My neovim config for java development
