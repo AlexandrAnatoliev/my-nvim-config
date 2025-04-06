@@ -6,6 +6,5 @@ return {
       lspconfig.lua_ls.setup{}
       lspconfig.jdtls.setup {}
     end
-     
-  }
+  },
 }
